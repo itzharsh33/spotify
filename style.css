@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    height: 50px;
+    background-color: black;
+    display: flex;
+ align-items: center;
+    color: aliceblue;
+    font-weight: 250;
+
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    background-color:black;
+    margin-left: 10px;
+    background-image: url("https://m.media-amazon.com/images/I/51rttY7a+9L.png");
+    background-size: cover;
+   
+}
+
+.home{
+    margin-left: 15px;
+    cursor: pointer;
+    font-size:large;
+}
+.search{
+    margin-left:37%;
+    width: 300px;
+background-color:azure;
+border-radius: 2px;
+}
+.music{
+    height: 500px;
+    width: 80%;
+    background-color: pink;
+ margin-left: 145px;
+background-image: url("https://static.vecteezy.com/system/resources/previews/003/588/157/non_2x/spotify-social-media-marketing-background-illustration-free-vector.jpg");
+background-size: cover;
+display: flex;
+flex-direction: column;
+padding: 17px;
+justify-content: space-around;
+margin-top: 10px;
+}
+.box{
+    height: 60px;
+    width: 380px;
+    background-color: pink;
+   margin-left: 50px;
+   border-radius:5px;
+   display: flex;
+   align-items: center;
+  
+}
+.hii{
+ position:absolute;
+ left: 370px;
+}
+
+.player{
+     height: 70px; 
+   background-color:black;
+    margin-top: 10px;
+    color: white;
+   display: flex;
+   flex-direction: column;
+     justify-content: center;
+  align-items:center;
+    
+  
+}
+.font{
+    margin-left: 5px;
+font-size:x-large;
+display: flex;
+flex-direction: row;
+
+}
+.font_class{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+#progressbar{
+    width: 700px;
+    color:white;
+    cursor: pointer;
+}
+.gif{
+    height: 60px;
+    width: 80px;
+    background-color: pink;
+   position: absolute;
+   left: 5px;
+   margin-top: 11px;
+   background-image: url("https://i.pinimg.com/originals/3e/fe/1c/3efe1cb845954233246f60d5d8395dd0.gif");
+   background-size: cover;
+    opacity: 0;
+    transition-duration: 0.4s;
+}
+.pic1{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-left: 5px;
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+.pic2{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-left: 5px;
+    background-image: url("2.jpg");
+    background-size: cover;
+}
+.pic3{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-left: 5px;
+    background-image: url("3.jpg");
+    background-size: cover;
+}
+.pic4{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-left: 5px;
+    background-image: url("4.jpg");
+    background-size: cover;
+}
+.pic5{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-left: 5px;
+    background-image: url("5.jpg");
+    background-size: cover;
+}
+.pic6{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-left: 5px;
+    background-image: url("6.jpg");
+    background-size: cover;
+}
+.font2{
+    font-size:x-large;
+    margin-left: 77%;
+}
